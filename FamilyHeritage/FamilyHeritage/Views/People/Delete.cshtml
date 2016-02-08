@@ -1,0 +1,55 @@
+﻿@model FamilyHeritage.Models.Person
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this Person?</h3>
+    <input type="hidden" id="serverJSON" value="@Newtonsoft.Json.JsonConvert.SerializeObject(Model)" />
+
+    <div class="form-horizontal">
+        <table class="form-group">
+            <tbody data-bind="foreach: details">
+                <tr>
+                    <td >FirstName:</td>
+                    <td data-bind="text:FName" ></td>
+                </tr>
+                <tr>
+                    <td>MiddleName</td>
+                    <td data-bind="text:MName"></td>
+                </tr>
+                <tr>
+                    <td>LastName:</td>
+                    <td data-bind="text:LName"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td data-bind="text:Gender"></td>
+                </tr>
+                <tr>
+                    <td>FatherName:</td>
+                    <td data-bind="text:FatherName"></td>
+                </tr>
+                <tr>
+                    <td>MotherName:</td>
+                    <td data-bind="text:MotherName"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+@section Scripts{
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+    <script src="~/Scripts/FamilyHeritageClass.js"></script>
+    <script src="~/Scripts/persondetails.js"></script>
+}

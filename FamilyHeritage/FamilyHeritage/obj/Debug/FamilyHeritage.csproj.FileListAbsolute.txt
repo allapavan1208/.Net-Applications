@@ -1,0 +1,69 @@
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.dll.config
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.pdb
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\Antlr3.Runtime.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\EntityFramework.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\EntityFramework.SqlServer.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\Newtonsoft.Json.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Helpers.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Mvc.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Optimization.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Razor.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Deployment.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Razor.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\WebGrease.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\EntityFramework.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\EntityFramework.SqlServer.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Helpers.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Mvc.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Optimization.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.Razor.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Deployment.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Razor.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\Antlr3.Runtime.pdb
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\bin\Newtonsoft.Json.xml
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\obj\Debug\FamilyHeritage.dll
+c:\users\sai\documents\visual studio 2013\Projects\FamilyHeritage\FamilyHeritage\obj\Debug\FamilyHeritage.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.dll.config
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\FamilyHeritage.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\Antlr3.Runtime.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\EntityFramework.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\EntityFramework.SqlServer.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\Newtonsoft.Json.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Helpers.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Mvc.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Optimization.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Razor.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Razor.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\TypeLite.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\TypeLite.Net4.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\WebGrease.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\EntityFramework.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\EntityFramework.SqlServer.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\Newtonsoft.Json.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Helpers.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Mvc.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Optimization.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Razor.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.WebPages.Razor.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\TypeLite.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\TypeLite.Net4.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\Antlr3.Runtime.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\obj\Debug\FamilyHeritage.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\obj\Debug\FamilyHeritage.pdb
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\obj\Debug\FamilyHeritage.csprojResolveAssemblyReference.cache
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Net.Http.Formatting.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Http.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Http.WebHost.dll
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Net.Http.Formatting.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Http.xml
+C:\Users\sai\Desktop\FamilyHeritage\FamilyHeritage\bin\System.Web.Http.WebHost.xml

@@ -1,0 +1,29 @@
+﻿<form role="form">
+    <div class="form-group">
+        <label for="inpFirstName">First Name</label>
+        <input id="inpFirstName" type="text" class="form-control" data-bind="value: FirstName" />
+    </div>
+    <div class="form-group">
+        <label for="inpMiddleName">Middle Name</label>
+        <input id="inpMiddleName" type="text" class="form-control" data-bind="value: MiddleName" />
+    </div>
+    <div class="form-group">
+        <label for="inpLastName">Last Name</label>
+        <input id="inpLastName" type="text" class="form-control" data-bind="value: LastName" />
+    </div>
+    <div class="form-group">
+        <label for="inpGender">Gender</label>
+        <select id="inpGender" class="form-control" data-bind="options: genders, value: Gender"></select>
+    </div>
+    <div class="form-group">
+        <label for="txtFatherName">Father Name</label>
+        <input id="txtFatherName" class="form-control" data-bind="value: FatherName" />
+    </div>
+    <div class="form-group">
+        <label for="txtMotherName">Mother Name</label>
+        <input id="txtMotherName" class="form-control" data-bind="value: MotherName" />
+    </div>
+</form>
+
+<input type="button" id="btnAddPerson" class="btn btn-primary" value="Add Person" data-bind="click: addPerson" />
+

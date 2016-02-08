@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FamilyHeritageModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MName" Type="varchar" MaxLength="100" />
+    <Property Name="LName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Gender" Type="bit" Nullable="false" />
+    <Property Name="FatherID" Type="int" />
+    <Property Name="MotherID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Person_Father">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Person1" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Person1">
+        <PropertyRef Name="FatherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Person_Mother">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Person1" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Person1">
+        <PropertyRef Name="MotherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FamilyHeritageModelStoreContainer">
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Person_Father" Association="Self.FK_Person_Father">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Person1" EntitySet="Person" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Person_Mother" Association="Self.FK_Person_Mother">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Person1" EntitySet="Person" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

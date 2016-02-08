@@ -1,0 +1,31 @@
+﻿<#@ template debug="false" hostspecific="True" language="C#" #>
+<#@ assembly name="$(TargetDir)TypeLite.dll" #>
+<#@ assembly name="$(TargetDir)TypeLite.Net4.dll" #>
+<#@ assembly name="$(TargetDir)$(TargetFileName)" #>
+<#@ assembly name="$(TargetDir)TypeLite.Demo.Portable.dll" #>
+
+<#@ import namespace="TypeLite" #> 
+<#@ import namespace="TypeLite.Net4" #>
+<#@ output extension=".ts"#>
+
+
+<#@include file="Manager.ttinclude"#>
+<# var manager = Manager.Create(Host, GenerationEnvironment); #>
+<# var ts = TypeScript.Definitions()
+		.ExcludeClassName("Guid")
+		.ForNamespaceOf<TypeLite.Demo.Models.Customer>(false)
+		.WithVisibility((c,t)=>true)
+		.WithClassDeclaration("abstract class")
+		.WithNamespaceInsteadOfModule(true)
+		.WithTypeFormatter((type, f) => ((TypeLite.TsModels.TsClass)type).Name.Replace("Dto","") + "ViewModel")
+		.IncludeBase(false)
+		.WithBaseClassesExtending("App.ViewModelBase")
+		.AddAdditionalClassContent("//additional content")
+		.AddRegion("Properties")
+		.AsConstEnums(false)
+;#>
+<#= ts.Generate(TsGeneratorOutput.Properties) #>
+<# manager.StartNewFile("Enums.ts"); #>
+<#= ts.Generate(TsGeneratorOutput.Enums) #>
+<# manager.EndBlock(); #>
+<# manager.Process(true); #>

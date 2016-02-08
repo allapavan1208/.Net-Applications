@@ -1,0 +1,53 @@
+﻿@model FamilyHeritage.Models.Person
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Person Details</h2>
+<input type="hidden" id="serverJSON" value="@Newtonsoft.Json.JsonConvert.SerializeObject(Model)" />
+
+<div>
+    <table>
+        <tbody data-bind="foreach: details">
+            <tr>
+                <td>FirstName:</td>
+                <td data-bind="text:FName"></td>
+            </tr>
+            <tr>
+                <td>MiddleName</td>
+                <td data-bind="text:MName"></td>
+            </tr>
+            <tr>
+                <td>LastName:</td>
+                <td data-bind="text:LName"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td data-bind="text:Gender"></td>
+            </tr>
+            <tr>
+                <td>FatherName:</td>
+                <td data-bind="text:FatherName"></td>
+            </tr>
+            <tr>
+                <td>MotherName:</td>
+                <td data-bind="text:MotherName"></td>
+            </tr>
+            <tr>
+                <td>
+                    <a data-bind="attr: { 'href': '@Url.Action("Edit", "People")/' + Id() }">
+                        Edit
+                    </a>|
+                    @Html.ActionLink("Back to List", "Index")
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/Scripts/knockout-3.4.0.js"></script>
+<script src="~/Scripts/FamilyHeritageClass.js"></script>
+    <script src="~/Scripts/persondetails.js"></script>
+}

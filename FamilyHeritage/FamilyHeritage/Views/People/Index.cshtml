@@ -1,0 +1,58 @@
+﻿@model IEnumerable<FamilyHeritage.Models.Person>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+    <input type="hidden" id="serverJSON" value="@Newtonsoft.Json.JsonConvert.SerializeObject(Model)" />
+</p>
+<table class="table">
+    <tr>
+        <th>
+FirstName        </th>
+        <th>
+MiddleName        </th>
+        <th>
+LastName        </th>
+        <th>
+Gender        </th>
+        <th>
+FatherName    </th>
+        <th>
+MotherName    </th>
+        <th></th>
+    </tr>
+
+    <tbody data-bind="foreach: details">
+        <tr>
+            <td data-bind="text:FName"></td>
+            <td data-bind="text:MName"></td>
+            <td data-bind="text:LName"></td>
+            <td data-bind="text:Gender"></td>
+            <td><a data-bind="attr: { 'href': '@Url.Action("Details", "People")/' + FatherID() },text:FatherName"></a></td>
+            <td><a data-bind="attr: { 'href': '@Url.Action("Details", "People")/' + MotherID() },text:MotherName"></a></td>
+            <td>
+                <a data-bind="attr: { 'href': '@Url.Action("Edit", "People")/' + Id() }" >
+                    Edit
+                </a>|
+                <a data-bind="attr: { 'href': '@Url.Action("Details", "People")/' + Id() }">
+                    Details
+                </a>|
+                <a data-bind="attr: { 'href': '@Url.Action("Delete", "People")/' + Id() }">
+                    Delete
+                </a>
+       
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+@section Scripts{
+<script src="~/Scripts/knockout-3.4.0.js"></script>
+<script src="~/Scripts/FamilyHeritageClass.js"></script>
+<script src="~/Scripts/FamilyHeritage.js"></script>  
+    }
